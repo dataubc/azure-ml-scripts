@@ -1,0 +1,11 @@
+name: lr-env
+channels:
+    - defaults
+    - scikit-learn
+dependencies:
+    - python=3.6.2
+    - scikit-learn
+    - pip
+    - pip:
+        - azureml-sdk
+    
